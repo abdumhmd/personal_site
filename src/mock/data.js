@@ -20,7 +20,7 @@ export const aboutData = {
   img: '2+++.png',
   paragraphOne: 'An Artificial Intelligence enthusiast with a demonstrated history of working in the computer software industry. Skilled in Python, SQL, Web Programming, Analytical thinking, and comprehensive reporting. Strong engineering professional with a bachelor’s degree focused on Computer Software Engineering. Equipped with excellent communication skills both written and spoken.',
   paragraphTwo: 'Currently pursuing master\'s education at Dokuz Eylul University in Izmir, Turkey. Working on the area of Machine Learning, specifically Computer vision with Deep Neural Networks.',
-  paragraphThree: '',
+  
   resume: 'https://1drv.ms/b/s!AtoSxRMcVXuHjRLqdyI-xqFPL2IO', // if no resume, the button will not show up
 };
 

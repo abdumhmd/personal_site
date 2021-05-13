@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Waste Material Classification with Deep Learning',
     info: 'A Deep Convolutional Neural Network to classify waste materials into organic and recyclable waste. Concepts of computer vision were applied build a deep neural network that extracts features and performs classification based on the Image data provided.  ',
     info2: 'Python programming language and Tensorflow was used to build the classifier.',
-    url: '',
+    
     repo: 'https://www.kaggle.com/aaabduali/87-accuracy-with-tensorflow', // if no repo, the button will not show up
   },
   {
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Pneumonia Detection with Deep Learning',
     info: 'Another Deep learning model built to classify X-Ray images into Pneumonic and Non-pnueumonic. The model identifies the X-Ray Images by extracting areas of abnormal opacification in the image. ',
     info2: 'Python programming language and Tensorflow was used to build the classifier.',
-    url: '',
+    
     repo: 'https://colab.research.google.com/drive/1AXYm0lq8jUUXQ_Yf9PRwtLnn3ORWMY8h?authuser=1#scrollTo=0r0Sg02p5OVh', // if no repo, the button will not show up
   },
   {
@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'Clustering of Izmir\'s districts.',
     info: 'To identify a convenient place to set up a shared workspace rental in the city of Izmir, the districts of then city were clustered based on the venues that are located inside them. The required data has been scraped and obtained from Foursquare API.',
     info2: 'Python programming language and Scikit library were used.',
-    url: '',
+    
     repo: 'https://github.com/aaabduali/Coursera_Capstone', // if no repo, the button will not show up
   },
 ];
@@ -90,5 +90,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

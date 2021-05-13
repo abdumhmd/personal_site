@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
+  const { title, lang, description,keywords } = headData;
 
   return (
     <>
@@ -14,7 +14,9 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta name="description" content={description || 'Abdurahman Ali Mohammed | Graduate student,Machine Learning, Cloud Enthusiast and Python Developer'} />
+        <meta name="keywords" content={keywords || 'https://github.com/aaabduali, Abdurahman, Python, Ethiopia, Turkey, Machine Learning, Deep Learning, CLoud Computing, IoT, Data Analytics, Digital Image Processing MLops, C/C++, MATLAB, Arduino '} />
+        
       </Helmet>
       <App />
     </>
